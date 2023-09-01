@@ -1,0 +1,227 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Instagram</title>
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <nav class="navbar">
+        <div class="nav-wrapper">
+            <img src="logo.png" class="brand-img" alt="">
+            <input type="text" class="search-box" placeholder="search">
+            <div class="nav-items">
+                <img src="home.png" class="icon" alt="">
+                <img src="messenger.png" class="icon" alt="">
+                <img src="add.png" class="icon" alt="">
+                <img src="explore.jpg" class="icon" alt="">
+                <img src="like.png" class="icon" alt="">
+                <div class="icon user-profile"></div>
+            </div>
+
+        </div>
+
+
+    </nav>
+    <section class="main">
+        
+        <div class="wrapper">
+            <div class="left-col">
+                <div class="status-wrapper">
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="/pf1.jpg" alt="">
+                        </div>
+                            <p class="username">Kiswah </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="/pf2.jpeg" alt="">
+                        </div>
+                            <p class="username">Shaghil </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="/pf3.jpg" alt="">
+                        </div>
+                            <p class="username">Ayan </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="https://wallpapers.com/images/high/cool-neon-blue-profile-picture-u9y9ydo971k9mdcf.webp" alt="">
+                        </div>
+                            <p class="username">Azaan </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="data:image/jpeg;base64,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" alt="">
+                        </div>
+                            <p class="username">Ali </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/5d600e108447097.Y3JvcCwxMDgwLDg0NCwwLDExNw.png" alt="">
+                        </div>
+                            <p class="username">Hiba </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="https://mir-s3-cdn-cf.behance.net/projects/max_808_webp/216338127753573.Y3JvcCwxOTk5LDE1NjQsMCwyMTc.jpg" alt="">
+                        </div>
+                            <p class="username">Manu </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="https://www.gamersdecide.com/sites/default/files/styles/news_images/public/2022-04-01_19_07_37-oo_deskinfo.jpg" alt="">
+                        </div>
+                            <p class="username">Khalid </p>
+                    </div>
+                    <div class="status-card">
+                        <div class="profile-pic"><img
+                                src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLWZMhyLqSZH_2J714Zv-No20XqH7pOSy_sg&usqp=CAU" alt="">
+                        </div>
+                            <p class="username">Anas</p>
+                    </div>          
+            </div>
+            <div class="right-col">
+            
+                <div class="profile-card">
+                    <div class="profile-pic">
+                        <img src="https://i.pinimg.com/564x/5e/bb/d7/5ebbd7fb28d7677da6edb304d407af91.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+      
+            <div class="post">
+                <div class="info">
+                    <div class="user">
+                        <div class="profile-pic"><img src="/pf1.jpg" alt="">
+                        </div>
+                        <p class="username">Kiswah_pillay</p>
+                    </div>
+                    <img src="option.1.jpg" class="options" alt="">
+                    
+                </div>
+                <img src="/pf1.jpg" class="post-image" alt="">
+                <div class="post-content">
+                    <div class="reaction-wrapper">
+                      <img src="liek.jpg" alt="">  
+                      <img src="comment.jpg" alt="">
+                      <img src="send.jpg" alt="">
+                      <img src="save.jpg" alt="">
+                    </div>
+                    <p class="likes">1,012 likes</p>
+                    <p class="description"><span>username</span> Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse autem nihil iure magnam amet sapiente repudiandae fugiat obcaecati? Sapiente ipsum sed non esse eum recusandae nemo ex perspiciatis! Praesentium, numquam!</p>
+                    <p class="post-time">2 minutes ago </p>
+                </div>
+                <div class="comment-wrapper">
+                    <img src="pillay.2 (2).jpg" class="icon" alt="">
+                    <input type="text" class="comment-box" placeholder="Add a comment">
+                    <button class="comment-btn">post</button>
+
+                </div>
+                <div class="post">
+                    <div class="info">
+                        <div class="user">
+                            <div class="profile-pic"><img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg" alt="">
+                            </div>
+                            <p class="username">shaghil_sasuke</p>
+                        </div>
+                        <img src="option.1.jpg" class="options" alt="">
+                        
+                    </div>
+                    <img src="https://media.sproutsocial.com/uploads/2022/06/profile-picture.jpeg" class="post-image" alt="">
+                    <div class="post-content">
+                        <div class="reaction-wrapper">
+                          <img src="liek.jpg" alt="">  
+                          <img src="comment.jpg" alt="">
+                          <img src="send.jpg" alt="">
+                            <div class="savebtn"> <img src="save.jpg" alt=""></div>
+                        </div>
+                        <p class="likes">69,000 likes</p>
+                        <p class="description"><span>username</span>shaghil has captured the photo with his camera in the desert</p>
+                        <p class="post-time">24 minutes ago </p>
+                    </div>
+                    <div class="comment-wrapper">
+                        <img src="pillay.2 (2).jpg" class="icon" alt="">
+                        <input type="text" class="comment-box" placeholder="Add a comment">
+                        <button class="comment-btn">post</button>
+    
+                    </div>
+                    <div class="post">
+                        <div class="info">
+                            <div class="user">
+                                <div class="profile-pic"><img src="https://wallpapers.com/images/featured/4co57dtwk64fb7lv.jpg" alt="">
+                                </div>
+                                <p class="username">Ayan_motu</p>
+                            </div>
+                            <img src="option.1.jpg" class="options" alt="">
+                            
+                        </div>
+                        <img src="https://wallpapers.com/images/featured/4co57dtwk64fb7lv.jpg" class="post-image" alt="">
+                        <div class="post-content">
+                            <div class="reaction-wrapper">
+                              <img src="liek.jpg" alt="">  
+                              <img src="comment.jpg" alt="">
+                              <img src="send.jpg" alt="">
+                              <img src="save.jpg" alt="">
+                            </div>
+                            <p class="likes">1M likes</p>
+                            <p class="description"><span>username</span>My wallpaper my favorite photo</p>
+                            <p class="post-time">1H Ago</p>
+                        </div>
+                        <div class="comment-wrapper">
+                            <img src="pillay.2 (2).jpg" class="icon" alt="">
+                            <input type="text" class="comment-box" placeholder="Add a comment">
+                            <button class="comment-btn">post</button>
+        
+                        </div>
+                        <div class="post">
+                            <div class="info">
+                                <div class="user">
+                                    <div class="profile-pic"><img src="https://wallpapers.com/images/high/cool-neon-blue-profile-picture-u9y9ydo971k9mdcf.webp" alt="">
+                                    </div>
+                                    <p class="username">Azaan_the best</p>
+                                </div>
+                                <img src="option.1.jpg" class="options" alt="">
+                                
+                            </div>
+                            <img src="https://wallpapers.com/images/high/cool-neon-blue-profile-picture-u9y9ydo971k9mdcf.webp" class="post-image" alt="">
+                            <div class="post-content">
+                                <div class="reaction-wrapper">
+                                  <img src="liek.jpg" alt="">  
+                                  <img src="comment.jpg" alt="">
+                                  <img src="send.jpg" alt="">
+                                  <img src="save.jpg" alt="">
+                                </div>
+                                <p class="likes">69M likes</p>
+                                <p class="description"><span>username</span>The best profile pic in instagram </p>
+                                <p class="post-time">2h Ago</p>
+                            </div>
+                            <div class="comment-wrapper">
+                                <img src="pillay.2 (2).jpg" class="icon" alt="">
+                                <input type="text" class="comment-box" placeholder="Add a comment">
+                                <button class="comment-btn">post</button>
+            
+                            </div>
+    
+
+
+            </div>
+            
+            
+
+            </div>
+        </div>
+    </section>
+
+</body>
+
+</html>
